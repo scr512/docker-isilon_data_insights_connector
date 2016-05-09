@@ -31,7 +31,7 @@ docker build -rm -t scr512/isilon_data_insights_connector ./docker-isilon_data_i
 #### Run Docker image (Daemonized)
 
 ```
-docker run -d --name isilon_data_insights_connector jasdav02/isilon_data_insights_connector
+docker run -d --name isilon_data_insights_connector scr512/isilon_data_insights_connector
 ```
 #### Confirm that data is being collected
 
